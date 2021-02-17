@@ -87,12 +87,28 @@ function HelloBootstrap() {
         </div>
         <div className="card-body">
           <p className="card-text">
-            I can generate random Numbers
+            I can generate random numbers:
           </p>
         </div>
       </div>
-    </div>
+      <hr />
+      <div className="card">
+      <div className="card-header">
+          <h3 className="card-title">OnClick</h3>
+      </div>
+      <div className="card-body">
+          <p className="card-text">
+              I can do this...
+          </p>
+      </div>
+  </div>
+</div>
+    
+    
   );
+
 }
+
+
 
 export default HelloBootstrap;
