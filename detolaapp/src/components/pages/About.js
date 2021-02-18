@@ -1,27 +1,31 @@
 import React from "react";
 
-function About(){
-    return (
-        <div className="container">
+const name = "Detola";
+const thoughts = "amazing!!!";
+
+const stripVowels = str => {
+  const vowels = ["a", "e", "i", "o", "u"];
+  let result = "";
+
+  for (let i = 0; i < str.length; i++) {
+    if (!vowels.includes(str[i].toLowerCase())) {
+      result += str[i];
+    }
+  }
+  return result;
+};
+
+function About() {
+  return (
+    <div className="main-container">
+      <div className="container">
         <div className="jumbotron">
-        <div>
-        <h3>About</h3>
-        <p>
-            Write something...
-        </p>
+          <h1>Hi! My name is ({name})</h1>
+          <h2>My name has ({name.length}) letters</h2>
+          <h2>My name without any vowels is: ({stripVowels(name)})</h2>
+          <h2>I think I am ({thoughts})</h2>
         </div>
-
-        </div>
-        <div className="card">
-            <div className="card-header">
-               <h3 className="card-title">About</h3> 
-            </div>
-            <div className="card-body">
-                <p className="card-text">Detola App</p>
-            </div>
-
-        </div>
-    
+      </div>
     </div>
 
   );

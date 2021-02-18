@@ -25,7 +25,7 @@ class Counter extends React.Component {
             <b>Click Increment button to increase count and the Decrement button to reduce count!</b>
           </div>
           <div className="card-body">
-            <p className="card-text">Click Count: {this.state.count}</p>
+            <p className="card-text"><b>Click Count: {this.state.count}</b></p>
             <button className="btn btn-primary" onClick={this.handleIncrement}>
               Increment
             </button>{" "}
