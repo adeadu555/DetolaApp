@@ -5,7 +5,7 @@ function Home() {
         <div className="container">
             <div className="jumbotron">
             <div>
-            <h1>Home Page</h1>
+            <h3>Home Page</h3>
             <p>
                 Detola App
             </p>

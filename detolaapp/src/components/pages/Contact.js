@@ -7,17 +7,17 @@ import Learn from "./Learn";
 function Contact(props){
     return (
         <div>
-            <h1>Contact Page</h1>
+            <h3>Contact Page</h3>
             <p>
-
-
-                Detola App
+                <b>Click the buttons below to learn more about this wonderful application</b>
             </p>
+
+
     <Link to={`${props.match.url}/learn`} role="button" className="btn btn-link">
-        Learn More
+        <button>Learn More</button>
       </Link>{" "}
       <Link to="/contact" role="button" className="btn btn-link">
-        Learn Less
+        <button>Learn Less</button>
       </Link>
       <Route exact path={`${props.match.url}/learn`} component={Learn} />
 

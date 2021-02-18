@@ -5,7 +5,7 @@ function Blog(){
         <div className="container">
         <div className="jumbotron">
         <div>
-        <h1>Blog</h1>
+        <h3>Blog</h3>
         <p>
             Detola App
         </p>

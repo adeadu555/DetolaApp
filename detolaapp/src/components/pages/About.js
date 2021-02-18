@@ -5,7 +5,7 @@ function About(){
         <div className="container">
         <div className="jumbotron">
         <div>
-        <h1>About</h1>
+        <h3>About</h3>
         <p>
             Detola App
         </p>
