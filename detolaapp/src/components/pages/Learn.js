@@ -7,7 +7,7 @@ function Learn() {
         <div>
         <h3>Learn</h3>
         <p>
-            Detola App
+            Write something...
         </p>
         </div>
 

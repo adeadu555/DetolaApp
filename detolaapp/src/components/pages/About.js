@@ -7,7 +7,7 @@ function About(){
         <div>
         <h3>About</h3>
         <p>
-            Detola App
+            Write something...
         </p>
         </div>
 

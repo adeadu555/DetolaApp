@@ -7,7 +7,7 @@ function Blog(){
         <div>
         <h3>Blog</h3>
         <p>
-            Detola App
+            Write something...
         </p>
         </div>
 

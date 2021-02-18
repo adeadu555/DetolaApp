@@ -7,7 +7,7 @@ function Home() {
             <div>
             <h3>Home Page</h3>
             <p>
-                Detola App
+                Write something
             </p>
             </div>
 
@@ -17,7 +17,12 @@ function Home() {
                    <h3 className="card-title">Home</h3> 
                 </div>
                 <div className="card-body">
-                    <p className="card-text">Detola App</p>
+                   <div className="col-md-3">
+                       
+                   </div>
+                   <div className="col-md-9">
+                       <p>Detola App is</p>
+                   </div>
                 </div>
 
             </div>
