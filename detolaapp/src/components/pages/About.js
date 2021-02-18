@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const name = "Detola";
 const thoughts = "amazing!!!";
 
@@ -20,10 +21,11 @@ function About() {
     <div className="main-container">
       <div className="container">
         <div className="jumbotron">
-          <h1>Hi! My name is ({name})</h1>
-          <h2>My name has ({name.length}) letters</h2>
-          <h2>My name without any vowels is: ({stripVowels(name)})</h2>
-          <h2>I think I am ({thoughts})</h2>
+          <h2>Hi! My name is ({name})</h2>
+          <h3>My name has ({name.length}) letters</h3>
+          <h4>My name without any vowels is: ({stripVowels(name)})</h4>
+          <h5>I think I am ({thoughts})</h5>
+         
         </div>
       </div>
     </div>
