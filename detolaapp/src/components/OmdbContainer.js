@@ -47,7 +47,14 @@ class OmdbContainer extends Component {
     return (
       <Container>
         <Row>
-          <Col size="md-8">
+        <Col size="md-2">
+            <Card heading="About App">
+            <Card body>
+                Detola App
+            </Card> 
+            </Card>
+          </Col>
+          <Col size="md-6">
             <Card
               heading={this.state.result.Title || "Search for a Movie to Begin"}
             >
