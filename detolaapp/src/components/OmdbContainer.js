@@ -15,12 +15,12 @@ class OmdbContainer extends Component {
     };
 
     componentDidMount() {
-        this.searchMovies("The Matrix");
+        this.searchMovies("Incredibles");
       }
 
       // When this component mounts, search for the movie "The Matrix"
   componentDidMount() {
-    this.searchMovies("The Matrix");
+    this.searchMovies("Incredibles");
   }
 
   searchMovies = query => {
