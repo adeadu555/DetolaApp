@@ -5,7 +5,7 @@ import OmdbContainer from "./components/OmdbContainer";
 
 function App(){
 
-    return (<OmdbContainer />;
+    return <OmdbContainer />;
     
 }
 
