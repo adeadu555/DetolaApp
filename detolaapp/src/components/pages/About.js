@@ -21,10 +21,10 @@ function About() {
     <div className="main-container">
       <div className="container">
         <div className="jumbotron">
-          <h2>Hi! My name is ({name})</h2>
-          <h3>My name has ({name.length}) letters</h3>
-          <h4>My name without any vowels is: ({stripVowels(name)})</h4>
-          <h5>I think I am ({thoughts})</h5>
+          <h2 style={{color: "red"}}>Hi! My name is ({name})</h2>
+          <h3 style={{color: "green"}}>My name has ({name.length}) letters</h3>
+          <h4 style={{color: "purple"}}>My name without any vowels is: ({stripVowels(name)})</h4>
+          <h5 style={{color: "green"}}>I think I am ({thoughts})</h5>
          
         </div>
       </div>
